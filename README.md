@@ -1,4 +1,4 @@
-Admin account
+# Admin account
+  +**User:** admin
 
--User: admin
--Password: 123456
+  +**Password:** 123456
