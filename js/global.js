@@ -192,6 +192,7 @@ function logIn(form) {
     var name = form.username.value;
     var pass = form.pass.value;
     var newUser = new User(name, pass);
+    console.log('eee',newUser);
 
     // Lấy dữ liệu từ danh sách người dùng localstorage
     var listUser = getListUser();
@@ -205,7 +206,6 @@ function logIn(form) {
             }
 
             setCurrentUser(u);
-
             // Reload lại trang -> sau khi reload sẽ cập nhật luôn giỏ hàng khi hàm setupEventTaiKhoan chạy
             location.reload();
             return false;

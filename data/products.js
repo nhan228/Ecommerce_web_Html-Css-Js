@@ -25,12 +25,12 @@ var list_products = [
         "masp": "mac0"
     },
     {
-        "name": "Macbook Air M1",
-        "company": "Mac",
-        "img": "./img/products/macbook/Macbook_Air_M1/Macbook_Air_M1.png",
-        "price": "22.990.000",
-        "star": 4,
-        "rateCount": 30,
+        "name": "Macbook Air M2",
+        "company": "Macbook",
+        "img": "./img/products/macbook/Macbook_Air_M2/Macbook_Air_M2.png",
+        "price": "23.000.000",
+        "star": 5,
+        "rateCount": 10,
         "promo": {
             "name": "giareonline",
             "value": "19.390.000"
@@ -38,7 +38,7 @@ var list_products = [
         "detail": {
             "screen": "13.3 inches",
             "os": "macOS Big Sur",
-            "camara": "none",
+            "camara": "720p FaceTime HD camera",
             "camaraFront": "none",
             "cpu": "Apple M1 (7 cores)",
             "ram": "8GB",
@@ -46,14 +46,14 @@ var list_products = [
             "microUSB": "No",
             "battery": "49.9-watt lithium-polymer"
         },
-        "masp": "mac1"
+        "masp": "mac2"
     },
 
     // Iphone
     {
-        "name": "Iphone 11",
+        "name": "Iphone 12",
         "company": "iphone",
-        "img": "./img/products/iphone/Iphone_11/Iphone_11.jpg",
+        "img": "./img/products/iphone/Iphone_12/Iphone_12.jpg",
         "price": "16.990.000",
         "star": 5,
         "rateCount": 1,
@@ -75,9 +75,9 @@ var list_products = [
         "masp": "iphone0"
     },
     {
-        "name": "Iphone 12",
+        "name": "Iphone 13",
         "company": "iphone",
-        "img": "./img/products/iphone/Iphone_12/Iphone_12.jpg",
+        "img": "./img/products/iphone/Iphone_13/Iphone_13.jpg",
         "price": "16.990.000",
         "star": 5,
         "rateCount": 1,
@@ -149,9 +149,9 @@ var list_products = [
         "masp": "air0"
     },
     {
-        "name": "Airpods 2",
+        "name": "Airpods 3",
         "company": "Airpods",
-        "img": "./img/products/airpods/airpods_2/airpods_2.jpg",
+        "img": "./img/products/airpods/airpods_3/airpods_3.jpg",
         "price": "2.690.000",
         "star": 5,
         "rateCount": 65,
@@ -174,6 +174,30 @@ var list_products = [
     },
 
     // Ipad
+    {
+        "name": "Ipad air 4",
+        "company": "Ipad",
+        "img": "./img/products/ipad/ipad_air_4/ipad_air_4.jpg",
+        "price": "13.990.000",
+        "star": 0,
+        "rateCount": 0,
+        "promo": {
+            "name": "tragop",
+            "value": "0"
+        },
+        "detail": {
+            "screen": "10.2 inches (2160 x 1620 pixels)",
+            "os": "iPadOS 15, upgradable to iPadOS 17.1",
+            "camara": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF",
+            "camaraFront": "none",
+            "cpu": "Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)",
+            "ram": "64GB",
+            "rom": "256 GB",
+            "microUSB": "Yes",
+            "battery": "8557 mAh (32.4 Wh)"
+        },
+        "masp": "ipad0"
+    },
     {
         "name": "Ipad gen 9",
         "company": "Ipad",
@@ -210,6 +234,30 @@ var list_products = [
         "promo": {
             "name": "",
             "value": ""
+        },
+        "detail": {
+            "screen": "Retina LTPO OLED (1.000 nits)",
+            "os": "Apple S8 SiP",
+            "camara": "none",
+            "camaraFront": "none",
+            "cpu": "Dual-core",
+            "ram": "1GB",
+            "rom": "32GB",
+            "microUSB": "No",
+            "battery": "Li-Ion, non-removable"
+        },
+        "masp": "watch0"
+    },
+    {
+        "name": "Apple Watch SE 2",
+        "company": "Watch",
+        "img": "./img/products/apple_watch/apple_watch_SE_2/apple_watch_SE_2.jpg",
+        "price": "8.990.000",
+        "star": 5,
+        "rateCount": 4,
+        "promo": {
+            "name": "moiramat",
+            "value": "0"
         },
         "detail": {
             "screen": "Retina LTPO OLED (1.000 nits)",

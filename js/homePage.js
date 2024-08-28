@@ -50,7 +50,7 @@ window.onload = function () {
 		document.getElementsByClassName('contain-products')[0].style.display = '';
 
 	} else { 
-		var soLuong = 4; 
+		var soLuong = 5; 
 		var pink= ['#ff8f9c','#ff5252'];
 		var yellow_red = ['#ff9c00', '#ec1f1f'];
 		var blue = ['#42bcf4', '#004c70'];
